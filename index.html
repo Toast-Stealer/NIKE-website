@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Move Your Way — movement for every kind of person." />
+  <title>Move Your Way — Nike</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Nike Move Your Way home"><span class="swoosh">✓</span> NIKE</a>
+    <p class="header-note">SPORT IS FOR EVERYBODY</p>
+    <a class="menu-link" href="#moves">EXPLORE MOVES <span>↘</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> A NEW WAY TO PLAY</p>
+        <h1>MOVE<br /><em>YOUR</em><br />WAY<span>.</span></h1>
+        <p class="hero-intro">No tryouts. No “right” way to look. Just find a thing that makes you feel a little more like yourself.</p>
+        <a class="pill-button dark" href="#moves">Find your move <span>↓</span></a>
+      </div>
+      <div class="hero-art">
+        <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1200&q=90" alt="Friends playing soccer together outdoors" />
+        <div class="hero-caption">PLAY<br />ON YOUR<br />TERMS <span>↗</span></div>
+      </div>
+    </section>
+
+    <section class="proof-strip" aria-label="Benefits of moving">
+      <p>THE GOOD STUFF THAT HAPPENS WHEN YOU MOVE</p>
+      <div class="proof-items"><span>01 <b>MORE CONFIDENCE</b></span><span>02 <b>LESS STRESS</b></span><span>03 <b>NEW FRIENDS</b></span><span>04 <b>YOUR KIND OF FUN</b></span></div>
+    </section>
+
+    <section class="moves-section" id="moves">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span></span> THE COLLECTION</p><h2>PICK YOUR<br /><em>OWN MOVE.</em></h2></div>
+        <div class="heading-side"><p>There’s no best choice here. Start with what sounds good today, then follow your curiosity.</p><div class="card-counter"><strong id="current-count">01</strong><span>/ 28</span></div></div>
+      </div>
+      <div class="choice-start"><p class="choice-kicker">WHAT FEELS RIGHT TODAY?</p><div class="choice-grid"><button class="choice active" data-filter="all"><span>↗</span><strong>Show me<br />everything</strong><small>I’m curious</small></button><button class="choice" data-filter="low-pressure"><span>◌</span><strong>Keep it<br />low-key</strong><small>Comfort first</small></button><button class="choice" data-filter="quick"><span>⌁</span><strong>I have<br />10 minutes</strong><small>Quick win</small></button><button class="choice" data-filter="outside"><span>✳</span><strong>Take me<br />outside</strong><small>Fresh air</small></button><button class="choice" data-filter="together"><span>♡</span><strong>With my<br />people</strong><small>Good company</small></button></div></div>
+      <div class="filter-row" aria-label="Filter activities"><button class="filter active" data-filter="all">ALL MOVES</button><button class="filter" data-filter="solo">JUST ME</button><button class="filter" data-filter="crew">WITH FRIENDS</button><button class="filter" data-filter="outside">OUTSIDE</button><button class="filter" data-filter="low-energy">LOW ENERGY</button></div>
+      <div class="binder">
+        <div class="binder-tab">MOVE BINDER <span>↘</span></div>
+        <div class="cards" id="cards"></div>
+      </div>
+      <div class="gallery-controls"><button id="prev" class="circle-button" aria-label="Previous move">←</button><div class="progress"><span id="progress-bar"></span></div><button id="next" class="circle-button bright" aria-label="Next move">→</button><p>DRAG / TAP TO FLIP</p></div>
+    </section>
+
+    <section class="closing"><div class="closing-mark">✳</div><p class="eyebrow"><span></span> THERE IS NO WRONG WAY</p><h2>THE BEST<br />MOVE IS <em>YOURS.</em></h2><a class="pill-button light" href="#moves">Start exploring <span>↗</span></a></section>
+  </main>
+  <footer><span>NIKE / MOVE YOUR WAY</span><span>MADE FOR EVERY BODY, EVERY MOOD, EVERY DAY.</span><span>© 2026 NIKE, INC.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
